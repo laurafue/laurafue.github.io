@@ -1,5 +1,5 @@
 //Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^fuechtenkordt\.com
-RewriteRule .* http://www.%{SERVER_NAME}%{REQUEST_URI} [R,L]
+RewriteCond %{HTTP_HOST} ^laurafue.github.io[nc]
+RewriteRule ^(.*)$ http://www.laurafue.github.io/$1 [r=301,nc]
