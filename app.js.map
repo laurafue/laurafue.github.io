@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "file": "app.js",
+  "sources": [
+    "app/config_dev.js",
+    "app/modules/core/controllers/footer.js",
+    "app/modules/core/controllers/navbar.js",
+    "app/modules/core/controllers/sidenav.js",
+    "app/modules/core/directives/footer.directive.js",
+    "app/modules/core/directives/navbar.directive.js",
+    "app/modules/core/directives/sidenav.directive.js",
+    "app/modules/impressum/controllers/impressum.js",
+    "app/modules/landingpage/controllers/landingpage.js",
+    "app/modules/project/controllers/project.js",
+    "app/modules/project/directives/project1.js",
+    "app/modules/project/directives/project2.js",
+    "app/modules/project/directives/project3.js",
+    "app/modules/project/directives/project4.js",
+    "app/modules/project/directives/project5.js",
+    "app/modules/project/directives/project6.js",
+    "app/app.js"
+  ],
+  "names": [],
+  "mappings": "AAAA;AACA;AACA;AACA;AACA;AACA,I;ACLA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;A;ACpBA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;A;ACrBA;AACA;AACA;AACA;AACA;AACA;A;ACLA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA;A;ACNA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;A;ACZA;AACA;AACA;AACA;AACA;AACA;AACA;A;ACNA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA,G;ACNA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;A"
+}
