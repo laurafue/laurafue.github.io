@@ -1,5 +1,17 @@
-//Rewrite to www
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^laurafue.github.io[nc]
-RewriteRule ^(.*)$ http://www.laurafue.github.io/$1 [r=301,nc]
+RewriteEngine On
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+RewriteRule .* – [F,L]
+
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteRule ^index/?$ / [L,R=301,NC]
+
+RewriteCond %{HTTP_HOST} ^54\.228\.220\.152
+RewriteRule (.*) http://fuechtenkordt.com/$1 [R=301,L]
+
+RewriteRule \.(css|jpeg|jpg|gif|png|js|json|eot|svg|ttf|woff|txt|xml|ico)$ - [L]
+RewriteRule . core/FrontController.class.php [L]
